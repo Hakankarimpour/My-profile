@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/woff/Poppins-Light.woff") format(woff),
+    url("/assets/ttf/Poppins-Light.ttf") format(ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "poppins";
+  src: url("/assets/woff/Poppins-Regular.woff") format(woff),
+    url("/assets/ttf/Poppins-Regular.ttf") format(ttf);
+  font-weight: 400;
+}
+
+* {
+  font-family: "poppins", sans-serif;
+
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f5f5;
+  padding: 0px;
+  color: #333533;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.header .position i,
+.header .title h1,
+.butten i {
+  color: #ffd100;
+}
+
+.header,
+.container {
+  display: flex;
+  padding: 45px 0;
+  justify-content: center;
+}
+.header {
+  background-color: #333533;
+  height: 300px;
+  align-items: center;
+  align-items: center;
+}
+.header .title {
+  margin: 0 50px;
+}
+.header .title h1 {
+  margin: 0;
+  line-height: 1;
+}
+
+.header .position {
+  color: #f5f5f5;
+  font-weight: 350;
+  margin-bottom: 35px;
+}
+.header .position i {
+  margin-right: 6px;
+}
+.butten {
+  color: #ffd100;
+  border: 1px solid #ffd100;
+  border-radius: 4px;
+  padding: 8px 24px;
+}
+.butten:hover,
+.butten:hover i {
+  background-color: #ffd100;
+  color: #333533;
+}
+.butten i {
+  margin-right: 6px;
+}
+.lang {
+  color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  border-radius: 4px;
+  padding: 4px 8px;
+  opacity: 0.5;
+  font-size: 12px;
+  align-self: flex-start;
+}
+.lang i {
+  color: #f5f5f5;
+  margin-right: 4px;
+}
+.lang:hover,
+.lang i:hover {
+  opacity: 1;
+}
+
+.header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.butten i {
+  margin-right: 10px;
+}
+
+nav {
+  width: 250px;
+  font-size: 24px;
+}
+nav ul li:hover {
+  cursor: pointer;
+}
+nav li.active {
+  font-weight: 600;
+}
+nav ul li .marker {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #333533;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 42px;
+  margin-right: 12px;
+}
+nav ul li.active .marker,
+nav ul li:hover .marker {
+  background-color: #333533;
+  color: #ffd100;
+  font-size: 22px;
+}
+nav ul li:not(:last-child):after {
+  content: "";
+  display: block;
+  height: 48px;
+  border-left: 1px dashed #333533;
+  margin: 16px 0px 16px 21px;
+}
+.section {
+  width: 700px;
+}
