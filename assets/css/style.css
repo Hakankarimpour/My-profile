@@ -106,7 +106,8 @@ a {
 
 nav {
   width: 250px;
-  font-size: 24px;
+  font-size: 20px;
+  padding-left: 65px;
 }
 nav ul li:hover {
   cursor: pointer;
@@ -140,4 +141,28 @@ nav ul li:not(:last-child):after {
 }
 .section {
   width: 700px;
+}
+.section-about-me{
+  border-left: 1px solid black;
+  padding-left: 40px;
+ padding-bottom: 90px;
+ padding-top: 10px;
+ margin-left: 90px;
+}
+.section-about-me p{
+  width: 85%;
+}
+.dev-width{
+  width: 70%;
+}
+.my-address{
+  display: flex;
+  justify-content: space-between;
+}
+.social ul{
+  display:flex;
+  justify-content: space-between;
+}
+.social ul li:hover{
+opacity: .5;
 }
