@@ -336,4 +336,7 @@
     background-color: #333533;
     color: #f5f5f5;
   }
+  .mobile-nav{
+    display: none;
+  }
   
